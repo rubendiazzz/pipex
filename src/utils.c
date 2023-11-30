@@ -6,7 +6,7 @@
 /*   By: rdiaz-fr <rdiaz-fr@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 11:58:56 by rdiaz-fr          #+#    #+#             */
-/*   Updated: 2023/11/30 12:59:31 by rdiaz-fr         ###   ########.fr       */
+/*   Updated: 2023/11/30 17:05:16 by rdiaz-fr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,10 @@ void	close_file(int fd)
 		error_message("Error: Failed to close file\n");
 }
 
-char	**split_command(char *command)
+char	**split_command(char *cmd)
 {
-	char	**split;
+	char	**args;
 
-	split = ft_split(command, ' ');
-	if (!split)
-		error_message("Error: Failed to split command\n");
-	return (split);
+	args = ft_split(cmd, ' ');
+	return (args);
 }
