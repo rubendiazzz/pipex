@@ -61,6 +61,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your_email@gmail.com
+Your Name - rubendfraga@gmail.com
 
-Project Link: [https://github.com/your_username_/pipex](https://github.com/your_username_/pipex)
+Project Link: [https://github.com/rubendiazzz_/pipex](https://github.com/rubendiazzz_/pipex)
